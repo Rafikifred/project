@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Plan – Rwanda Trails</title>
+  <meta name="description" content="WDD 131 Website Planning Document for Rwanda Trails project. Includes site purpose, scenarios, color schema, typography, and wireframes.">
+  <meta name="author" content="RAFIKI FRED">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+<body>
+  <header>
+    <h1>Rwanda Trails – Site Plan</h1>
+    <p>A planning document for my WDD 131 project</p>
+  </header>
+
+  <main>
+    <!-- Site Name -->
+    <section>
+      <h2>Site Name</h2>
+      <p><strong>Rwanda Trails</strong> – This name was chosen to represent eco-tourism and cultural travel in Rwanda.  
+         It emphasizes exploration of Rwanda’s landscapes, wildlife, and heritage.</p>
+      <p>Optional domain: <em>rwandatrails.org</em></p>
+    </section>
+
+    <!-- Site Purpose -->
+    <section>
+      <h2>Site Purpose</h2>
+      <p>The purpose of this site is to provide visitors with guides to Rwanda’s top destinations, 
+         eco-friendly travel tips, and resources for planning trips. It will include information 
+         about national parks, cultural highlights, accommodations, and an interactive contact form.</p>
+    </section>
+
+    <!-- Scenarios -->
+    <section>
+      <h2>Scenarios</h2>
+      <ul>
+        <li>What is the best time of year to visit Volcanoes National Park to see gorillas?</li>
+        <li>How much should I budget for a week-long trip to Rwanda?</li>
+        <li>Where can I find eco-friendly lodges near Lake Kivu?</li>
+      </ul>
+    </section>
+
+    <!-- Color Schema -->
+    <section>
+      <h2>Color Schema</h2>
+      <p>Selected colors and their usage:</p>
+      <ul>
+        <li><span class="color-sample primary"></span> <strong>Primary Green (#3ddc84)</strong> – used for headings, buttons, and accents.</li>
+        <li><span class="color-sample secondary"></span> <strong>Dark Navy (#0f1115)</strong> – used for backgrounds and footer.</li>
+      </ul>
+    </section>
+
+    <!-- Typography -->
+    <section>
+      <h2>Typography</h2>
+      <ul>
+        <li><strong>Inter (sans-serif):</strong> Used for all headings (H1, H2, H3).</li>
+        <li><strong>Roboto (sans-serif):</strong> Used for body text and paragraphs.</li>
+      </ul>
+    </section>
+
+    <!-- Wireframes -->
+    <section>
+      <h2>Wireframes</h2>
+      <p>Below are rough sketches of the homepage layout for mobile and desktop views.</p>
+      <figure>
+        <img src="images/wireframe-mobile.png" alt="Mobile wireframe layout">
+        <figcaption>Mobile Wireframe</figcaption>
+      </figure>
+      <figure>
+        <img src="images/wireframe-desktop.png" alt="Desktop wireframe layout">
+        <figcaption>Desktop Wireframe</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> RAFIKI FRED | WDD 131 – Site Plan</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

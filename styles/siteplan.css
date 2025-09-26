@@ -1,0 +1,81 @@
+/* Base styling for site plan */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #0f1115;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #0f1115;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1, h2 {
+  font-family: 'Inter', sans-serif;
+  color: #3ddc84;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
+.color-sample {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+}
+
+.color-sample.primary {
+  background-color: #3ddc84;
+}
+
+.color-sample.secondary {
+  background-color: #0f1115;
+}
+/* Wireframe Section */
+#wireframes {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f9f9f9; /* light background to make images stand out */
+  border-radius: 10px;
+}
+
+#wireframes h2,
+#wireframes h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #2c3e50; /* dark text for contrast */
+  margin-bottom: 1rem;
+}
+
+#wireframes img {
+  display: block;
+  max-width: 90%;   /* responsive sizing */
+  height: auto;     /* maintain aspect ratio */
+  margin: 1rem auto;
+  border: 2px solid #333;  /* dark border */
+  border-radius: 8px;      /* rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* soft shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+#wireframes img:hover {
+  transform: scale(1.05); /* zoom effect on hover */
+}
